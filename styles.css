@@ -1,0 +1,33 @@
+body {background-color: black;}
+
+h1 { color: dodgerblue;
+     text-align: center;
+     letter-spacing: 2px;
+     font-family: "Impact"}
+
+h2{ color: deepskyblue;
+    font-family "Fantasy";
+    font-size: 20px;
+    text-align: center;}
+
+figure { display: block;
+         color: lightskyblue;
+         margin: auto;
+         width: 40%; }
+
+nav { text-align: center;
+      letter-spacing: 5px;
+      font-family: "Impact";
+      font-size: 20px;}
+
+a:link{ text-decoration: none;
+        color: deepskyblue}
+
+a:visited{ text-decoration: none;
+        color: deepskyblue}
+
+a:hover{ text-decoration: none;
+        color: blue}
+
+p { text-align: left;
+    color: lightblue;}
