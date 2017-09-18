@@ -1,21 +1,5 @@
 
-
-body {
-	background-color:#84A083;
-}
-
-
-div{
-	background-color:#A2B8AA;
-	color:#07411D;
-	border:3px solid #07411D;
-	height:461px;
-	text-align:center;
-	padding:10px;
-	margin:0 auto;
-	margin-bottom:10px;
-}
-
+/*----------------------------------------ARTICLE STYLE*/
 article{
 	display:inline;
 	vertical-align:top;
@@ -26,7 +10,6 @@ article{
 	text-align:center;
 	
 }
-
 article h1{
 	float:right;
 	background-color:#A2B8AA;
@@ -37,6 +20,19 @@ article h1{
 	font-family: "Lucida Grande";
 	font-size:20px;
 }
+
+
+/*----------------------------------------DIV STYLE*/
+div{
+	background-color:#A2B8AA;
+	color:#07411D;
+	border:3px solid #07411D;
+	height:461px;
+	text-align:center;
+	padding:10px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
 div img{
 	float:left;
 	
@@ -45,8 +41,6 @@ div a{
 	padding-left:30px;
 	padding-right:30px;
 }
-
-
 div p{
 	display:inline;
 	background-color:#A2B8AA;
@@ -55,6 +49,14 @@ div p{
 	text-align:center;
 }
 
+
+/*----------------------------------------BODY STYLE*/
+body {
+	background-color:#84A083;
+}
+
+
+/*----------------------------------------HEADER STYLE*/
 header{
 	background-color:#A2B8AA;
 	color:#07411D;
@@ -65,32 +67,19 @@ header{
 	margin:0 auto;
 	margin-bottom:10px;
 }
-
 header img{
 	display:inline-block;
 	align:center;
 }
 
-header ul{
-	list-style-type:none;
-	text-decoration:none;
-}
 
-
+/*----------------------------------------FOOTER STYLE*/
 footer p{
 	color:#07411D;
 	text-align:center;
 }
 
-
-p{
-
-}
-
-
-nav{	
-}
-
+/*----------------------------------------LINK STYLE*/
 a:link {
 	text-decoration:none;
 	font-weight:bold;
